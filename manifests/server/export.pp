@@ -11,7 +11,7 @@ define nfs::server::export (
   $atboot         = false,
   $options        = '_netdev',
   $bindmount      = undef,
-  $nfstag         = undef
+  $nfstag         = undef,
   $server         = $::clientcert
 ) {
 
